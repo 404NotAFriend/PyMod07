@@ -4,7 +4,9 @@ from abc import ABC, abstractmethod
 
 
 class Creature(ABC):
-    def __init__(self, name: str, creature_type: str, **kwargs: object) -> None:
+    def __init__(
+        self, name: str, creature_type: str, **kwargs: object
+    ) -> None:
         self.name = name
         self.creature_type = creature_type
         super().__init__(**kwargs)

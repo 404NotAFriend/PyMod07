@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from .factories import HealingCreatureFactory, TransfromCreatureFactory
+from .factories import HealingCreatureFactory, TransformCreatureFactory
 from .capabilities import HealCapability, TransformCapability
 
 __all__ = ["HealingCreatureFactory", "TransformCreatureFactory",
