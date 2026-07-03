@@ -3,5 +3,5 @@
 from .factories import HealingCreatureFactory, TransfromCreatureFactory
 from .capabilities import HealCapability, TransformCapability
 
-__all__ = ["HealingCreatureFactory", "TransfromCreatureFactory",
+__all__ = ["HealingCreatureFactory", "TransformCreatureFactory",
            "HealCapability", "TransformCapability"]
